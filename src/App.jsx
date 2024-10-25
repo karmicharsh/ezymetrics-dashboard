@@ -35,7 +35,7 @@ const PerformanceWidget = ({ onPin, isPinned, onExport, isDarkMode }) => {
 
   return (
     <div className={`${isDarkMode ? 'bg-gray-800' : 'bg-white'} p-4 rounded-lg shadow-md`}>
-      <h3 className={`text-xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>Performance Metrics</h3>
+      <h3 className={`text-xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>Analytics</h3>
       <div className="flex justify-between mb-4">
         <select 
           value={chartType} 
@@ -88,7 +88,7 @@ const LeadManagementWidget = ({ onPin, isPinned, onExport, isDarkMode }) => {
 
   return (
     <div className={`${isDarkMode ? 'bg-gray-800' : 'bg-white'} p-4 rounded-lg shadow-md`}>
-      <h3 className={`text-xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>Lead Management</h3>
+      <h3 className={`text-xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>Leads</h3>
       <div className="flex justify-end mb-4">
         <button onClick={onPin} className={`${isDarkMode ? 'bg-blue-600' : 'bg-blue-500'} text-white px-2 py-1 rounded mr-2`}>
           {isPinned ? 'Unpin' : 'Pin'}
@@ -123,7 +123,7 @@ const LeadManagementWidget = ({ onPin, isPinned, onExport, isDarkMode }) => {
 const LeadStatusWidget = ({ onPin, isPinned, onExport, isDarkMode }) => {
   return (
     <div className={`${isDarkMode ? 'bg-gray-800' : 'bg-white'} p-4 rounded-lg shadow-md`}>
-      <h3 className={`text-xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>Lead Status</h3>
+      <h3 className={`text-xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>Reports</h3>
       <div className="flex justify-end mb-4">
         <button onClick={onPin} className={`${isDarkMode ? 'bg-blue-600' : 'bg-blue-500'} text-white px-2 py-1 rounded mr-2`}>
           {isPinned ? 'Unpin' : 'Pin'}
