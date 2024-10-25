@@ -9,7 +9,6 @@ EzyMetrics Dashboard is an intuitive dashboard designed for lead management and 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
